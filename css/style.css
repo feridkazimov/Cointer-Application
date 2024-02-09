@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c3c3c3;
+    font-family: 'Raleway', serif;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counter {
+    background-color: wheat;
+    border-radius: 10rem 0 5rem 0;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cointerApplication {
+    font-size: 2rem;
+    color: rgb(93, 93, 93);
+    border-bottom: 1px solid rgb(147, 147, 147);
+    padding-bottom: 1rem;
+    margin-top: 20px;
+}
+
+.content1 {
+    height: 10rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zero {
+    font-size: 2.5rem;
+    color: rgb(93, 93, 93);
+    margin-bottom: 2rem;
+}
+
+.minus {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0.2rem 4rem;
+    outline: none;
+    border-radius: 2rem;
+    border: 1px solid #c4c4c4;
+    color: blueviolet;
+    cursor: pointer;
+    margin-inline: 0.5rem;
+    color: rgb(197, 84, 84);
+}
+
+.minus:hover {
+    opacity: 0.8;
+
+}
+
+.plus {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0.2rem 4rem;
+    outline: none;
+    border-radius: 2rem;
+    border: 1px solid #c4c4c4;
+    color: blueviolet;
+    cursor: pointer;
+    margin-inline: 0.5rem;
+    color: rgb(107, 164, 107);
+}
+
+.plus:hover {
+    opacity: 0.8;
+}
+
+.Reset {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 3rem;
+    color: rgb(105, 105, 239);
+    font-weight: 600;
+    outline: none;
+    border-radius: 2rem;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+    margin-inline: 0.5rem;
+}
+
+.Reset:hover {
+    opacity: 0.8;
+}
+
+.plusAndminus {
+    margin-left: 15px;
+}
